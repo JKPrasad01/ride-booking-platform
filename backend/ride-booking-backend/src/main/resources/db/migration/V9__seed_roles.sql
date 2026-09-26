@@ -1,0 +1,3 @@
+INSERT INTO roles (name)
+VALUES ('PASSENGER'), ('DRIVER'), ('ADMIN')
+ON CONFLICT (name) DO NOTHING;
